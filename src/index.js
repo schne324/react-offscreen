@@ -13,8 +13,9 @@ import inlineStyles from './inline-styles';
  *  <Offscreen className='foo'>{'I am offscreen and stuff!'}</Offscreen>
  * ```
  */
-export default function Offscreen({children, ...other}) {
-  return (<span style={inlineStyles} {...other}>{children}</span>);
+export default function Offscreen({children, tag, ...other}) {
+  const Tag = tag || 'span';
+  return (<Tag style={inlineStyles} {...other}>{children}</Tag>);
 }
 
 Offscreen.propTypes = {
@@ -22,5 +23,6 @@ Offscreen.propTypes = {
     PropTypes.string,
     PropTypes.array,
     PropTypes.object
-  ]).isRequired
+  ]).isRequired,
+  tag: PropTypes.string
 }
