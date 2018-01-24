@@ -34,3 +34,5 @@ const offscreenList = (
   </Offscreen>
 )
 ```
+
+__See `demo/` directory for more examples__
