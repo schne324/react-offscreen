@@ -25,4 +25,4 @@ Offscreen.propTypes = {
     PropTypes.object
   ]).isRequired,
   tag: PropTypes.string
-}
+};

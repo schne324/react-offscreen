@@ -4,4 +4,4 @@ export default {
   width: '1px',
   height: '1px',
   marginTop: '-1px'
-}
+};

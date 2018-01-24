@@ -1,11 +1,12 @@
 {
   "name": "react-offscreen",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React component for offscreen text",
   "main": "dist/index.js",
   "scripts": {
     "build": "webpack --config webpack.config.babel.js",
-    "test": "nyc npm run test:run",
+    "lint": "eslint .",
+    "test": "nyc npm run test:run && npm run lint",
     "test:run": "tape -r babel-register test/index.js | tap-spec",
     "start": "webpack-dev-server --config webpack.demo.config.babel.js"
   },
@@ -32,6 +33,7 @@
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.1",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
@@ -39,6 +41,8 @@
     "babel-register": "^6.26.0",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^4.16.0",
+    "eslint-plugin-react": "^7.5.1",
     "html-webpack-plugin": "^2.30.1",
     "jsdom": "11.6.0",
     "jsdom-global": "3.0.2",

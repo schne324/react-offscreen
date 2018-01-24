@@ -30,4 +30,4 @@ module.exports = {
     compress: true,
     port: 3000
   }
-}
+};
