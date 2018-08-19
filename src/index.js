@@ -18,6 +18,7 @@ export default function Offscreen({children, tag, ...other}) {
   return (<Tag style={inlineStyles} {...other}>{children}</Tag>);
 }
 
+Offscreen.displayName = 'Offscreen';
 Offscreen.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.string,
