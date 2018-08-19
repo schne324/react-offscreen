@@ -28,5 +28,5 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Features
 
-* adds support for custom tag. chore: writes some dox ([bca04f8](https://github.com/schne324/react-offscreen/commit/bca04f8))
-* creates the Offscreen react component. chore: setup/build/demo stuff. ([f18d488](https://github.com/schne324/react-offscreen/commit/f18d488))
+* adds support for custom tag. ([bca04f8](https://github.com/schne324/react-offscreen/commit/bca04f8))
+* creates the Offscreen react component. ([f18d488](https://github.com/schne324/react-offscreen/commit/f18d488))
